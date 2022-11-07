@@ -1,9 +1,8 @@
-export default function healthStatusChecker (character) {
+export default function healthStatusChecker(character) {
     if (character.health > 50) {
         return 'healthy';
-    } else if (character.health > 15) {
-        return 'wounded'
-    } else {
-        return 'critical';
+    } if (character.health > 15) {
+        return 'wounded';
     }
+        return 'critical';
 }

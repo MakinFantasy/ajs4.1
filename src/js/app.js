@@ -1,3 +1,3 @@
-import healthStatusChecker from "./healthStatusChecker";
+import healthStatusChecker from './healthStatusChecker';
 
-console.log(healthStatusChecker({name: 'Mage', health: 90}))
+console.log(healthStatusChecker({ name: 'Mage', health: 90 }));
